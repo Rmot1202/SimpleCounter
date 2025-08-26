@@ -35,7 +35,8 @@ The following **stretch** features are implemented:
 
 Here’s a walkthrough of implemented features:
 
-<img src='tap_counter_walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='2025-08-25 at 16.37.54 - Pink Walrus.mp4
+' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace with actual recording -->
 GIF created with [Kap](https://getkap.co/) for macOS  
