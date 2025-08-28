@@ -35,7 +35,7 @@ The following **stretch** features are implemented:
 
 Here’s a walkthrough of implemented features:
 
-<img src='simple.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='Simple.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace with actual recording -->
 GIF created with [Kap](https://getkap.co/) for macOS  
