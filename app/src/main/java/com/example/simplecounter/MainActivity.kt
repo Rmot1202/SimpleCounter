@@ -6,6 +6,7 @@ import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import kotlin.math.pow
 
 
 class MainActivity : AppCompatActivity() {
@@ -21,8 +22,20 @@ class MainActivity : AppCompatActivity() {
             textView.text = counter.toString()
             Toast.makeText(this, "Clicked Button", Toast.LENGTH_SHORT).show()
         }
-        val upgradeBtn = findViewById<Button>(R.id.upgradeBtn)
 
+        val textView2 = findViewById<TextView>(R.id.textView2)
+        var goal = 100
+        var counter1 = 2
+        textView2.text = "Next Goal: 100"
+        if (counter >= goal) {
+            // Show the upgrade button and set its click listener
+            textView2.visibility = View.VISIBLE
+            goal = goal.toDouble().pow(counter1).toInt()
+            textView2.text = "Next Goal: $goal"
+            counter1++
+        }
+        textView2.visibility = View.INVISIBLE
+        val upgradeBtn = findViewById<Button>(R.id.upgradeBtn)
         button.setOnClickListener {
             counter++
             textView.text = counter.toString()
