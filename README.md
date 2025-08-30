@@ -27,7 +27,7 @@ The following **stretch** features are implemented:
 - [X] User can exchange 100 taps for an upgrade: button increments by +2 instead of +1  
 - [X] Upgrade button appears when threshold is reached, then disappears after upgrade  
 - [X] App customized with a background image and themed button icon  
-- [ ] (Optional challenge) Increasingly difficult goals displayed as milestones  
+- [x] (Optional challenge) Increasingly difficult goals displayed as milestones  
 
 ---
 
